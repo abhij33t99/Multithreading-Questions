@@ -1,0 +1,8 @@
+Goal: Implement a lightweight Java's Scheduled ExecutorService with three APIs:
+schedule(Runnable command, long delay, TimeUnit unit)
+Run a one-shot task after the specified delay.
+scheduleAtFixed Rate(Runnable command, long initialDelay, long period, TimeUnit unit)
+→ Run periodically at a fixed rate: executions are intended at 10+initialDelay, t0+initialDelay+period,
+to+initialDelay+2*period...
+scheduleWithFixed Delay (Runnable command, long initialDelay, long delay, TimeUnit unit)
+Run periodically with a fixed delay: each next start happens delay after the previous run finishes.
