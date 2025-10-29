@@ -1,7 +1,7 @@
-package Uber;
+package Uber.scheduled_executor;
 
-import Uber.executor.CustomScheduledExecutor;
-import Uber.model.TaskType;
+import Uber.scheduled_executor.executor.CustomScheduledExecutor;
+import Uber.scheduled_executor.model.TaskType;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;

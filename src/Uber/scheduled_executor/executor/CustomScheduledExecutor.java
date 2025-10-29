@@ -1,7 +1,7 @@
-package Uber.executor;
+package Uber.scheduled_executor.executor;
 
-import Uber.model.ScheduledTask;
-import Uber.model.TaskType;
+import Uber.scheduled_executor.model.ScheduledTask;
+import Uber.scheduled_executor.model.TaskType;
 
 import java.util.PriorityQueue;
 import java.util.concurrent.ExecutorService;

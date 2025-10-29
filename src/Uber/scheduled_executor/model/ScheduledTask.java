@@ -1,4 +1,4 @@
-package Uber.model;
+package Uber.scheduled_executor.model;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
